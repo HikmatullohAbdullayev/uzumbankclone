@@ -1,28 +1,28 @@
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import Uzumjon from "../../../assets/img/uzumjon.png";
 import Computer from "../../../assets/img/computer.png";
 import Link from 'next/link';
 
 function IshOrinlari(props) {
-  const data = [
-    {
-      id: 1,
-      text: "Бизнес-аналитик",
-    },
-    {
-      id: 2,
-      text: "Специалист казначейства по пруденциальной отчетности",
-    },
-    {
-      id: 3,
-      text: "Специалист контактного центра",
-    },
-    {
-      id: 4,
-      text: "QA тестировщик - автоматизация процессов фронта",
-    },
-  ];
+    const data = [
+        {
+          id: 1,
+          text: "Бизнес-аналитик",
+        },
+        {
+          id: 2,
+          text: "Специалист казначейства по пруденциальной отчетности",
+        },
+        {
+          id: 3,
+          text: "Специалист контактного центра",
+        },
+        {
+          id: 4,
+          text: "QA тестировщик - автоматизация процессов фронта",
+        },
+      ];
 
   return (
     <section>
