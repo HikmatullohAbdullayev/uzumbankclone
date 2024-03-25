@@ -15,10 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=" flex flex-col justify-between h-screen ">
-        <div className="box">
+      <body className="  flex flex-col justify-between h-screen ">
+        <div className="">
           <Header />
-          <main className="w-full  text-center align-middle ">{children}</main>
+          <main className="max-w-[1240px] mx-auto px-[20px]  text-center align-middle mt-[130px]">{children}</main>
         </div>
 
         <div>

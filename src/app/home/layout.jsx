@@ -1,4 +1,5 @@
 import Home from "./page";
+import  Nav  from "./components/Nav";
 
 export const metadata = {
   title: "Create Next App",
@@ -7,9 +8,13 @@ export const metadata = {
 
 export default function HomeLayout({ children }) {
   return (
+   <>
+    <div className="mt-[100px]">
+      <Nav/>
     <section>
-        qqq
         {children}
     </section>
+    </div>
+   </>
   );
 }

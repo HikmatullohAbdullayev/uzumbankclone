@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Tender(props) {
+function Valyuta(props) {
     return (
         <div>
             valyuta
