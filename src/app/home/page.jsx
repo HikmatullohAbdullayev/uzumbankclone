@@ -1,6 +1,7 @@
+"use client"
 import React from 'react';
 
-function HomePage(props) {
+function Home(props) {
     return (
         <div>
             home
@@ -8,4 +9,4 @@ function HomePage(props) {
     );
 }
 
-export default HomePage;
+export default Home;
