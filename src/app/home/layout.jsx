@@ -1,4 +1,4 @@
-import Home from "./page";
+// import Home from "./page";
 import  Nav  from "./components/Nav";
 
 export const metadata = {
