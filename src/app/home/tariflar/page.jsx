@@ -46,15 +46,17 @@ function Tariflar(props) {
     ]
     return (
         <section>
-             <h1>Tariflar</h1>
-            <div className="flex">
-                <p>Для частных лиц</p>
-                {data2.map((item) =>{
-                    <div key={item.id} className="flex flex-col">
-                        <p>{item.text}</p>
+             <h1 className="font-bold text-[32px]  my-[20px]">Tariflar</h1>
+            <div className="flex gap-5">
+                <p className="font-bold p-2">Для частных лиц</p>
+              <div className="text-start p-4 max-w-[975px] ">
+              {data2.map((item) =>(
+                    <div key={item.id} className="flex flex-col gap-2 py-3">
+                        <p className="text-purple-900  font-semibold text-[18px]">{item.text}</p>
                         <p>PDF, 237 KB</p>
                     </div>
-                })}
+                ))}
+              </div>
             </div>
         </section>
     );
