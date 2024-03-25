@@ -1,34 +1,23 @@
 "use client"
 import React from 'react';
-import { usePathname } from "next/navigation";
-import { useRouter } from "next/router";
+
 
 import Link from 'next/link';
 
 function Nav(props) {
-
-    const pathName = usePathname();
-
-  const handleNavigation = (href) => {
-    // Server tomonidan yuklash uchun client tomonidan navigatsiyani boshlaymiz
-    router.push(href);
-  };
-
     return (
         <div>
             <nav className="flex py-[16px]">
                 <ul className="flex gap-[10px] ">
                     <li className="px-5">
-                    {/* <Link href="/home/mahsulotlar" > */}
-                    <p  onClick={() => handleNavigation("/home/mahsulotlar")}  className={`${pathName === "/home/mahsulotlar" ? "active" : ""}`} >
+                    <Link href="/home/mahsulotlar">
                         Mahsulotlar
-                        </p>
+                        </Link>
                     </li>
                     <li className="px-[10px] ">
-                    {/* <Link href="/home/pulotkazmalari"> */}
-                    <p onClick={() => handleNavigation("/home/pulotkazmalari")}  className={`${pathName === "/home/pulotkazmalari" ? "active" : ""}`}>
+                    <Link href="/home/pulotkazmalari">
                         Pul o`tkazmalari
-                        </p>
+                        </Link>
                     </li>
                     <li className="px-[10px] ">
                     <Link href="/home/tariflar">
