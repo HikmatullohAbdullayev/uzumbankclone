@@ -18,12 +18,12 @@ function Header(props) {
             <nav className="flex">
                 <ul className="flex gap-[10px] ">
                     <li className="px-5">
-                    <Link href="/home">
+                    <Link href="home">
                         Jismoniy Shaxslarga
                         </Link>
                     </li>
                     <li className="px-[10px] ">
-                    <Link href="/busines">
+                    <Link href="busines">
                         Biznesga
                         </Link>
                     </li>
