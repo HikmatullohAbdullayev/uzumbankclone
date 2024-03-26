@@ -15,32 +15,32 @@ function Nav(props) {
             <nav className="flex py-[16px]">
                 <ul className="flex gap-[10px]">
                     <li className="px-5">
-                        <Link href="home/mahsulotlar">
+                        <Link href="/home/mahsulotlar">
                             Mahsulotlar
                         </Link>
                     </li>
                     <li className="px-[10px]">
-                        <Link href="home/pulotkazmalari">
+                        <Link href="/home/pulotkazmalari">
                             Pul o`tkazmalari
                         </Link>
                     </li>
                     <li className="px-[10px]">
-                        <Link href="home/tariflar">
+                        <Link href="/home/tariflar">
                             Tariflar
                         </Link>
                     </li>
                     <li className="px-[10px]">
-                        <Link href="home/ishorinlari">
+                        <Link href="/home/ishorinlari">
                             Ish o`rinlari
                         </Link>
                     </li>
                     <li className="px-[10px]">
-                        <Link href="home/tender">
+                        <Link href="/home/tender">
                             Tender
                         </Link>
                     </li>
                     <li className="px-[10px]">
-                        <Link href="home/valyuta">
+                        <Link href="/home/valyuta">
                             Valyuta kursi
                         </Link>
                     </li>

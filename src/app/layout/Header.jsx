@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 function Header(props) {
     return (
-        <header className=" w-full border-b border-solid shadow-md fixed top-0 bg-white ">
+        <header className=" w-full border-b border-solid shadow-md fixed top-0 bg-white mb-[120px]">
            <div className=" max-w-[1240px] mx-auto px-[20px] flex justify-between items-center py-5">
            <div className="flex justify-around items-center">
            <div className="w-[150px] ">
@@ -18,12 +18,12 @@ function Header(props) {
             <nav className="flex">
                 <ul className="flex gap-[10px] ">
                     <li className="px-5">
-                    <Link href="home">
+                    <Link href="/home">
                         Jismoniy Shaxslarga
                         </Link>
                     </li>
                     <li className="px-[10px] ">
-                    <Link href="busines">
+                    <Link href="/busines">
                         Biznesga
                         </Link>
                     </li>
