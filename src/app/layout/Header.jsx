@@ -18,7 +18,7 @@ function Header(props) {
             <nav className="flex">
                 <ul className="flex gap-[10px] ">
                     <li className="px-5">
-                    <Link href="home">
+                    <Link href="/">
                         Jismoniy Shaxslarga
                         </Link>
                     </li>
