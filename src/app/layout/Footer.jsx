@@ -5,7 +5,7 @@ import Link from "next/link";
 function Footer(props) {
   return (
     <>
-      <div className=" max-w-[1240px] mx-auto px-[20px] flex justify-between items-center mt-[50px] mb-[20px]">
+      <div className=" max-w-[1240px] mx-auto px-[20px] pt-[20px] flex justify-between items-center mt-[50px] mb-[20px]   border-t-2 border-solid">
         <form className="flex justify-between items-end gap-2">
           <div className="impo">
             <label id="email" htmlFor="email">
@@ -19,7 +19,7 @@ function Footer(props) {
               placeholder="Elektron pochta"
             />
           </div>
-          <button className="px-[15px] py-[10px] mr-2 w-[200px] text-purple-900 bg-[#c9b8ff] rounded-md">
+          <button className="px-[15px] py-[10px] ml-5  w-[200px] text-purple-900 bg-[#c9b8ff] rounded-md">
             Jonatish
           </button>
         </form>
