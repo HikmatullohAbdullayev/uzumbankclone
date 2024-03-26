@@ -33,18 +33,22 @@ function PulOtkazmalari(props) {
             </div>
 
             <div className="flex flex-col">
-                <h2 className="my-[40px] font-bold text-center">Bizning hamkorlarimiz</h2>
-                <div className="cards">
+                <h2 className="my-[40px] font-bold text-center text-[24px]">Bizning hamkorlarimiz</h2>
+                <div className="flex justify-between items-center">
                     {pulData.map((item) =>(
-                    <div key={item.id} className="bozj">
-                        <div className="imgbl">
-                        <span><HumoIcon/></span>
+                    <div key={item.id} className="w-[365px]">
+                       <div className="bg-purple-50 py-[55px] px-5 w-full">
+                       <div className="max-w-[100px] mx-auto w-full ">
+                        <span className=" ml-[-20px]  p-5 block bg-gray-300 rounded-3xl">
+                            <HumoIcon/>
+                            </span>
                         </div>
-                        <div className="flex">
-                            <p>{item.title}</p>
-                            <p> {item.komissiya}</p>
+                       </div>
+                        <div className="flex justify-between items-center p-4">
+                            <p className="font-bold text-lg">{item.title}</p>
+                            <p className=" text-gray-700"> {item.komissiya}</p>
                         </div>
-                        <p className="text-purple-900 ">Batafsil</p>
+                        <p className="text-purple-900 text-start py-2 cursor-pointer font-semibold p-2 ">Batafsil</p>
                     </div>
                     ))}
                 </div>
