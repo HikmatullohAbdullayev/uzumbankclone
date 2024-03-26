@@ -30,9 +30,9 @@ function Footer(props) {
           </Link>
         </div>
       </div>
-      <footer className="">
+      <footer className="w-full bg-purple-600 p-10">
         <div className="max-w-[1240px] mx-auto px-[20px]">
-            
+            <h2>Footer</h2>
         </div>
       </footer>
     </>
