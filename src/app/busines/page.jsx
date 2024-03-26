@@ -4,7 +4,7 @@ import BiznesImg from "../../assets/icon/BiznesImg"
 
 function Busines(props) {
     return (
-        <section>
+        <section className=" mt-[100px]">
         <div className="flex">
           <div className=" w-full flex justify-between items-center ">
             <div className=" text-start pt-[50px]">
